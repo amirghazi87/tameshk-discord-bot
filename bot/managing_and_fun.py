@@ -17,7 +17,7 @@ async def on_ready():
 async def update(ctx):
   if str(ctx.message.author) in admins:
     ps.update()
-    await ctx.reply("update shod")
+       await ctx.reply("آپدیت شد")
   else:
     embed=discord.Embed(title="خطا", description="شما ادمین نیستید :)", color=0xFF0000)
     embed.set_image(url="https://s.keepmeme.com/files/en_posts/20210512/black-guy-smiles-at-camera-poker-face-meme.jpg")
